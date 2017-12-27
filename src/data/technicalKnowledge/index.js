@@ -9,6 +9,8 @@ const technicalKnowledge = {
         "Linux - Ubuntu",
         "Linux - Mint",
         "Linux - Debian",
+        "Mac os - Sierra",
+        "Mac os - High Sierra"
     ],
 
     "technicalLanguages": [
@@ -23,13 +25,15 @@ const technicalKnowledge = {
 
     "frameworksLibraries": [
         "Laravel",
-        "Bootstrap",
         "jQuery",
         "Polymer - Webcomponents",
         "Socket.IO",
         "Bootstrap",
-        "React.js",
-        "Material Design Lite"
+        "ReactJS",
+        "Gatsby",
+        "VueJS",
+        "Material Design Lite",
+        "Twig"
     ],
 
     "tooling": [
