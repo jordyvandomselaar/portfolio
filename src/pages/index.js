@@ -62,7 +62,7 @@ const IndexPage = () => (
                     </TableRow>
 
                     <TableRow>
-                        <TableRowColumn>CounTableRowy Of Birth</TableRowColumn>
+                        <TableRowColumn>Country Of Birth</TableRowColumn>
                         <TableRowColumn>the Netherlands</TableRowColumn>
                     </TableRow>
 
