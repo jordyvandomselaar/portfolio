@@ -4,8 +4,8 @@ import Page from "../components/Page"
 import JobList from "../components/JobList"
 import jobs from "../data/jobs"
 import technicalKnowledge from "../data/technicalKnowledge"
-import {Table, TableBody, TableHeader, TableHeaderColumn, TableRow, TableRowColumn} from "material-ui/Table/index"
-import {List, ListItem} from "material-ui/List/index"
+import {Table, TableBody, TableHeader, TableHeaderColumn, TableRow, TableRowColumn} from "material-ui/Table"
+import {List, ListItem} from "material-ui/List"
 import SubHeader from "material-ui/Subheader"
 import {Divider} from "material-ui"
 
@@ -141,6 +141,7 @@ const IndexPage = () => (
             <SubHeader>OS-es</SubHeader>
             <List>
                 {technicalKnowledge.os.map(item => <ListItem
+                    key={item}
                     primaryText={item}
                 />)}
             </List>
@@ -148,6 +149,7 @@ const IndexPage = () => (
             <SubHeader>Scripting and Programming languages</SubHeader>
             <List>
                 {technicalKnowledge.technicalLanguages.map(item => <ListItem
+                    key={item}
                     primaryText={item}
                 />)}
             </List>
@@ -155,6 +157,7 @@ const IndexPage = () => (
             <SubHeader>Frameworks and Libraries</SubHeader>
             <List>
                 {technicalKnowledge.frameworksLibraries.map(item => <ListItem
+                    key={item}
                     primaryText={item}
                 />)}
             </List>
@@ -162,6 +165,7 @@ const IndexPage = () => (
             <SubHeader>Tooling</SubHeader>
             <List>
                 {technicalKnowledge.tooling.map(item => <ListItem
+                    key={item}
                     primaryText={item}
                 />)}
             </List>
@@ -169,6 +173,7 @@ const IndexPage = () => (
             <SubHeader>Human languages</SubHeader>
             <List>
                 {technicalKnowledge.languages.map(item => <ListItem
+                    key={item}
                     primaryText={item}
                 />)}
             </List>
